@@ -1,20 +1,159 @@
 <!doctype html>
 <html>
   <head>
-    <link href="index.css" rel="stylesheet">
-    <link href="global.css" rel="stylesheet">
+      <meta charset="utf-8">
+      <meta name="description" content="">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
       <title>Neutron - Home</title>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-SBWPVQGCNS"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-SBWPVQGCNS');
-</script>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+      <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600,700,800,900" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/railscasts.min.css">
+      <link rel="stylesheet" href="global.css">
+      <link rel="stylesheet" href="index.css">
   </head>
   <body>
-      <h1 class="hero__title">We are working for you.</h1>
+    <nav>
+      <div class="logo"></div>
+      <ul class="menu">
+        <div class="menu__item toggle"><span></span></div>
+        <li class="menu__item"><a href="doc.html" class="link link--dark" target="_blank"><strong>Docs</strong></a></li>
+        <li class="menu__item"><a href="" class="link link--dark" target="_blank"><strong><i class="fas fa-bug"></i></strong></a></li>
+        <li class="menu__item"><a href="" class="link link--dark" target="_blank"><strong><i class="fab fa-github"></i></strong></a></li>
+      </ul>
+    </nav>
+    <div class="hero">
+      <h1 class="hero__title">Neutron</h1>
+      <p class="hero__description">CLI Multi-Purpose Tool</p>
+    </div>
+    <div class="hero__terminal">
+      <pre>
+        <!-- Place your demo code here -->
+        <code class="shell-session demo">root@kali:~# </code>
+      </pre>
+    </div>
+    <div class="wrapper">
+      <div class="installation">
+        <h3 class="section__title">Installation</h3>
+          <code style="color: #888;">$  git clone https://github.com/alexCYB/Neutron.git</code>
+      </div>
+      <div class="feature">
+        <div class="feature__item">
+          <h3 class="section__title">Overview</h3>
+          <p><b>Development.</b> Developed in Python 3.9. Start writing your notes immediately in any terminal! No more time wasted on navigating and opening your text editor.</p>
+        </div>
+        <div class="feature__item">
+          <h3 class="section__title">Features</h3>
+          <p><b>What does it do?</b> Start writing your notes immediately in any terminal! No more time wasted on navigating and opening your text editor.</p>
+        </div>
+        <div class="feature__item">
+          <h3 class="section__title">Disclaimer</h3>
+          <p><b>Disclaimer.</b> This is <b>not affliated</b>, endorsed or certified by <a href="https://www.instagram.com/">Instagram</a>, <a href="https://www.twitter.com">Twitter</a> and <a href="https://www.youtube.com">YouTube</a>. This is an <strong>independent</strong> and unofficial project. Use at your own risk.</p>
+        </div>
+        <div class="feature__item">
+          <h3 class="section__title">Contribute</h3>
+          <p><b>Help me improve the project.</b> Let us know how we can improve the project, both in terms of <strong>aesthetics</strong> and <strong>functionality</strong>.</p>
+        </div>
+        <div class="feature__item">
+          <h3 class="section__title">Donate</h3>
+          <p><b>Buy me a coffee.</b> Want <b>to keep</b> this project going? Click <a href="">here</a>.</p>
+        </div>
+        <div class="feature__item">
+          <h3 class="section__title">Support</h3>
+          <p><b>Need help?</b> <a href="">Contact me</a>.</p>
+        </div>
+      </div>
+
+      <div class="callout">
+        <p>Read the <a href="doc.html" target="_blank">documentation</a> for more information</p>
+      </div>
+    </div>
+    <div class="changelog">
+      <div class="wrapper">
+        <h3 class="section__title">Changelog - <a href="">Full Changelog</a></h3>
+        <div class="changelog__item">
+          <div class="changelog__meta">
+            <h4 class="changelog__title">v0.7</h4>
+            <small class="changelog__date">10/12/2017</small>
+          </div>
+          <div class="changelog__detail">
+            <ul>
+              <li><b>Bug fixed:</b> Improving the writing workflow with better key bindings</li>
+              <li><b>Addition:</b> Design updates</li>
+              <li>SSL Verification for web hooks</li>
+              <li>Render Emoji</li>
+            </ul>
+          </div>
+        </div>
+        <div class="changelog__item">
+          <div class="changelog__meta">
+            <h4 class="changelog__title">v0.6</h4>
+            <small class="changelog__date">7/30/2017</small>
+          </div>
+          <div class="changelog__detail">
+            <ul>
+              <li>Adding Unicode support</li>
+              <li>Basic text highlighting</li>
+              <li>Fresh Design</li>
+            </ul>
+          </div>
+        </div>
+        <div class="changelog__item">
+          <div class="changelog__meta">
+            <h4 class="changelog__title">v0.5</h4>
+            <small class="changelog__date">5/10/2017</small>
+          </div>
+          <div class="changelog__detail">
+            <ul>
+              <li>Save default md file in new folders</li>
+              <li>Ability to quick search on existing notes</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <hr>
+    <hr>
+
+    <div class="wrapper">
+      <h3 class="section__title">Frequently Asked Questions</h3>
+      <div class="feature faq">
+        <div class="feature__item faq">
+          <p><b>Can I contribute to the development of the website?</b> Developed in Python 3.9. Start writing your notes immediately in any terminal! No more time wasted on navigating and opening your text editor.</p>
+        </div>
+        <div class="feature__item faq">
+          <p><b>What does it do?</b> Start writing your notes immediately in any terminal! No more time wasted on navigating and opening your text editor.</p>
+        </div>
+        <div class="feature__item faq"> 
+          <p><b>Disclaimer.</b> This is <b>not affliated</b>, endorsed or certified by <a href="https://www.instagram.com/">Instagram</a>, <a href="https://www.twitter.com">Twitter</a> and <a href="https://www.youtube.com">YouTube</a>. This is an <strong>independent</strong> and unofficial project. Use at your own risk.</p>
+        </div>
+        <div class="feature__item faq">
+          <p><b>Help me improve the project.</b> Let us know how we can improve the project, both in terms of <strong>aesthetics</strong> and <strong>functionality</strong>.</p>
+        </div>
+        <div class="feature__item faq">
+          <p><b>Buy me a coffee.</b> Want <b>to keep</b> this project going? Click <a href="">here</a>.</p>
+        </div>
+        <div class="feature__item faq">
+          <p><b>Need help?</b> <a href="">Contact me</a>.</p>
+        </div>
+      </div>
+
+      <hr>
+      <hr>
+
+      <h3 class="section__title" style="text-align: right;">alex.</h3>
+
+    <footer class="footer">
+      <strong>Neutron 2021</strong><br> 
+      <strong><a href="">Privacy Policy</a></strong> • 
+      <strong><a href="">Monetization</a></strong> •
+      <strong><a href="">License</a></strong> •
+      <strong><a href="">Documentation</a></strong> •
+      <strong><a href="">FAQ</a></strong> •
+      <strong><a href="">GitHub</a></strong>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script src="index.js"></script>
   </body>
 </html>
