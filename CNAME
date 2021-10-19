@@ -1,1 +1,3 @@
-neutronproject.it
+type = CNAME
+name = www
+value = alexxcyb.github.io/Neutron
